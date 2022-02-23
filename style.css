@@ -73,3 +73,13 @@
     font-weight: 700;
     font-size: 1.1rem;
   }
+
+  /* section 2 BIO */
+
+  section.bio img.KatyMills, div.bio_text {
+    display: inline-block;
+    max-width: 50%;
+    
+
+
+  }
