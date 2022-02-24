@@ -1,12 +1,13 @@
 :root{
     font-size: 16px;
   }
-  *{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
+
+    *{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
   }
   
   body {
@@ -75,11 +76,40 @@
   }
 
   /* section 2 BIO */
-
+ 
   section.bio img.KatyMills, div.bio_text {
     display: inline-block;
     max-width: 50%;
-    
+    box-sizing:border-box;
+    float: left;
+    padding: 4rem;
+  }
 
+  section.bio div.table_vertical_position {
+    position: relative;
+  }
 
+  section.bio div.bio_text {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, 50%);
+  
+  }
+
+  section.bio div.bio_text h3 {
+    font-family: 'Butler', sans-serif;
+    font-size: 5.2rem;
+    font-weight: 100;
+  }
+
+  section.bio div.bio_text h4, p {
+    font-family:  'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  section.bio div.bio_text blockquote {
+    font-family: 'Butler', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
   }
